@@ -1,0 +1,15 @@
+{
+	"demo": {
+		"title": "Translation demo",
+		"title2": "Famous quotes",
+		"german": "German",
+		"english": "English",
+		"spanish": "Spanish",
+		"french": "French",
+		"portuguese": "Portuguese",
+		"russian": "Russian",
+		"text1": "Make love and not war (John Lennon)",
+		"text2": "Learn to live and you'll learn to die well (Confucio)",
+		"text3": "Every day we know more and we understand less (Albert Einstein)"
+	}
+}

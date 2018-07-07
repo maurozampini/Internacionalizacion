@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title style="text-align: center">
+      Internacionalización
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2 style="text-align: center" translate>demo.title</h2>
+  <button ion-button full (click)="changeLanguage('de')">{{ 'demo.german' | translate }}</button><br>
+  <button ion-button full (click)="changeLanguage('en')">{{ 'demo.english' | translate }}</button><br>
+  <button ion-button full (click)="changeLanguage('es')">{{ 'demo.spanish' | translate }}</button><br>
+  <button ion-button full (click)="changeLanguage('fr')">{{ 'demo.french' | translate }}</button><br>
+  <button ion-button full (click)="changeLanguage('pt')">{{ 'demo.portuguese' | translate }}</button><br>
+  <button ion-button full (click)="changeLanguage('ru')">{{ 'demo.russian' | translate }}</button>
+  <h2 style="text-align: center" translate>demo.title2</h2>
+  <p style="text-align: center">{{ 'demo.text1' | translate }}</p>
+  <p style="text-align: center">{{ 'demo.text2' | translate }}</p>
+  <p style="text-align: center">{{ 'demo.text3' | translate }}</p>
+</ion-content>

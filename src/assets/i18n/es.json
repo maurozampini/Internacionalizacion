@@ -1,0 +1,15 @@
+{
+	"demo": {
+		"title": "Demostración de traducción",
+		"title2": "Frases famosas",
+		"german": "Alemán",
+		"english": "Inglés",
+		"spanish": "Español",
+		"french": "Francés",
+		"portuguese": "Portugués",
+		"russian": "Ruso",
+		"text1": "Haz el amor y no la guerra (John Lennon)",
+		"text2": "Aprende a vivir y sabrás morir bien (Confucio)",
+		"text3": "Cada día sabemos más y entendemos menos (Albert Einstein)"
+	}
+}

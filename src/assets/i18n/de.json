@@ -1,0 +1,15 @@
+{
+	"demo": {
+		"title": "Übersetzungs-Demo",
+		"title2": "Berühmte Zitate",
+		"german": "Deutsch",
+		"english": "Englisch",
+		"spanish": "Spanisch",
+		"french": "Französisch",
+		"portuguese": "Portugiesisch",
+		"russian": "Russisch",
+		"text1": "Mach Liebe und nicht Krieg (John Lennon)",
+		"text2": "Lerne zu leben und du wirst gut sterben können (Confucio)",
+		"text3": "Jeden Tag wissen wir mehr und wir verstehen weniger (Albert Einstein)"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"demo": {
+		"title": "Traduction de démonstration",
+		"title2": "Citations célèbres",
+		"german": "Allemand",
+		"english": "Anglais",
+		"spanish": "Espagnol",
+		"french": "Français",
+		"portuguese": "Portugais",
+		"russian": "Russe",
+		"text1": "Faites l'amour et non la guerre (John Lennon)",
+		"text2": "Apprenez à vivre et vous saurez bien mourir (Confucio)",
+		"text3": "Chaque jour nous en savons plus et nous comprenons moins (Albert Einstein)"
+	}
+}
