@@ -10,6 +10,11 @@
 		"russian": "Ruso",
 		"text1": "Haz el amor y no la guerra (John Lennon)",
 		"text2": "Aprende a vivir y sabrás morir bien (Confucio)",
-		"text3": "Cada día sabemos más y entendemos menos (Albert Einstein)"
+		"text3": "Cada día sabemos más y entendemos menos (Albert Einstein)",
+		"buttonok": "Aceptar",
+		"buttoncancel": "Cancelar",
+		"dateName": "Fecha",
+		"hourName": "Hora",
+		"config": "Configuración"
 	}
 }

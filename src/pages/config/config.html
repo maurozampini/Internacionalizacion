@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title style="text-align: center">{{ 'demo.config' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <p style="text-align: center">{{ 'demo.german' | translate }}</p>
+  <button id="de" ion-button full (click)="changeLanguage('de')"></button>
+  <p>{{ 'demo.english' | translate }}</p>
+  <button id="en" ion-button full (click)="changeLanguage('en')"></button>
+  <p>{{ 'demo.spanish' | translate }}</p>
+  <button id="es" ion-button full (click)="changeLanguage('es')"></button>
+  <p>{{ 'demo.french' | translate }}</p>
+  <button id="fr" ion-button full (click)="changeLanguage('fr')"></button>
+  <p>{{ 'demo.portuguese' | translate }}</p>
+  <button id="pt" ion-button full (click)="changeLanguage('pt')"></button>
+  <p>{{ 'demo.russian' | translate }}</p>
+  <button id="ru" ion-button full (click)="changeLanguage('ru')"></button>
+
+  <div xFlex="100" class="map-full-card-content">
+    <agm-map [latitude]="lat"
+             [longitude]="lng"
+             [zoom]="3"
+             [disableDefaultUI]="true"
+             [streetViewControl]="false"
+             (mapClick)="selectLocation($event)">
+        <agm-marker
+          [latitude]="lat"
+          [longitude]="lng">
+        </agm-marker>
+    </agm-map>
+  </div>
+
+  <ion-fab bottom right>
+    <button ion-fab bottom right color="primary" (click)="back()">
+      <ion-icon name="md-arrow-back"></ion-icon>
+    </button>
+  </ion-fab>
+</ion-content>

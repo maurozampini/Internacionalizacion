@@ -10,6 +10,11 @@
 		"russian": "Russisch",
 		"text1": "Mach Liebe und nicht Krieg (John Lennon)",
 		"text2": "Lerne zu leben und du wirst gut sterben können (Confucio)",
-		"text3": "Jeden Tag wissen wir mehr und wir verstehen weniger (Albert Einstein)"
+		"text3": "Jeden Tag wissen wir mehr und wir verstehen weniger (Albert Einstein)",
+		"buttonok": "Akzeptieren",
+		"buttoncancel": "Abbrechen",
+		"dateName": "Datum",
+		"hourName": "Stunde",
+		"config": "Konfiguration"
 	}
 }

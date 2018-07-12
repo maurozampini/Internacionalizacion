@@ -1,0 +1,42 @@
+#de{
+    background-image: url("../assets/imgs/de.png");
+    background-size: contain;
+    color: black;
+}
+
+#en{
+    background-image: url("../assets/imgs/en.png");
+    background-size: contain;
+    color: black;
+}
+
+#es{
+    background-image: url("../assets/imgs/es.png");
+    background-size: contain;
+    color: black;
+}
+
+#fr{
+    background-image: url("../assets/imgs/fr.png");
+    background-size: cover;
+    color: black;
+}
+
+#pt{
+    background-image: url("../assets/imgs/pt.png");
+    background-size: contain;
+    color: black;
+}
+
+#ru{
+    background-image: url("../assets/imgs/ru.png");
+    background-size: contain;
+}
+
+p{
+    text-align: center;
+}
+
+agm-map {
+    height: 300px;
+  }

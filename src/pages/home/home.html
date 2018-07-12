@@ -8,14 +8,28 @@
 
 <ion-content padding>
   <h2 style="text-align: center" translate>demo.title</h2>
-  <button ion-button full (click)="changeLanguage('de')">{{ 'demo.german' | translate }}</button><br>
-  <button ion-button full (click)="changeLanguage('en')">{{ 'demo.english' | translate }}</button><br>
-  <button ion-button full (click)="changeLanguage('es')">{{ 'demo.spanish' | translate }}</button><br>
-  <button ion-button full (click)="changeLanguage('fr')">{{ 'demo.french' | translate }}</button><br>
-  <button ion-button full (click)="changeLanguage('pt')">{{ 'demo.portuguese' | translate }}</button><br>
-  <button ion-button full (click)="changeLanguage('ru')">{{ 'demo.russian' | translate }}</button>
   <h2 style="text-align: center" translate>demo.title2</h2>
   <p style="text-align: center">{{ 'demo.text1' | translate }}</p>
   <p style="text-align: center">{{ 'demo.text2' | translate }}</p>
   <p style="text-align: center">{{ 'demo.text3' | translate }}</p>
+
+  <div class="date_box">
+    <div class="img_box">
+      <img class="img1" src="assets/imgs/clock.png" alt="">
+    </div>
+    <!-- DATE -->
+    <ion-item>
+      <ion-label translate>demo.dateName</ion-label>
+      <ion-datetime [(ngModel)]="date" [monthNames]="monthNames" [monthShortNames]="monthShortNames" [dayShortNames]="daysShortNames" [dayNames]="daysNames"
+                    displayFormat="DD/MM/YYYY" [doneText]="'demo.buttonok' | translate" [cancelText]="'demo.buttoncancel' | translate" pickerFormat="MMMM-DD-YYYY"></ion-datetime>
+    </ion-item>
+    <!-- HOUR -->
+    <ion-item>
+      <ion-label translate>demo.hourName</ion-label>
+      <ion-datetime [(ngModel)]="hour" [doneText]="'demo.buttonok' | translate" [cancelText]="'demo.buttoncancel' | translate" displayFormat="HH:mm" pickerFormat="HH:mm"></ion-datetime>
+    </ion-item>
+  </div>
+  <ion-fab bottom right>
+      <button ion-button bottom right color="primary" (click)="goToConfig()"><ion-icon name="md-settings"></ion-icon></button>
+  </ion-fab>
 </ion-content>
